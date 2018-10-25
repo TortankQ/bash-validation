@@ -31,7 +31,7 @@ then
   echo -e "${BLUE}vagrant est installé${NC}"
   echo ""
 else
-  # il faut installer virtualbox
+  # il faut installer vagrant
   # sudo apt-get install vagrant
   echo -e "${RED}il faut installer vagrant${NC}"
   echo ""
