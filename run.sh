@@ -3,11 +3,35 @@ RED='\033[0;31m'
 BLUE='\033[0;34m'
 YELLOW='\033[3;33m'
 GREEN='\033[3;32m'
+PUMPKIN='\033[0;33m'
 NC='\033[0m' # No Color
 
 echo -e "${YELLOW}---------------------------------------------------------"
 echo "-------------BIENVENUE SCRIPT VAGRANT--------------------"
 echo -e "---------------------------------------------------------${NC}"
+echo -e "                            ${GREEN};::;;::;,"
+echo -e "                            ;::;;::;;,"
+echo -e "                           ;;:::;;::;;,${NC}"
+echo -e "           ${PUMPKIN}.vnmmnv%vnmnv%,.${GREEN};;;:::;;::;;,${NC}  ${PUMPKIN}.,vnmnv%vnmnv,"
+echo -e "        ${PUMPKIN}vnmmmnv%vnmmmnv%vnmmnv%${GREEN};;;;;;;${NC}${PUMPKIN}%nmmmnv%vnmmnv%vnmmnv"
+echo -e "      vnmmnv%vnmmmmmnv%vnmmmmmnv%;:;%nmmmmmmnv%vnmmmnv%vnmmmnv"
+echo -e "     vnmmnv%vnmmmmmnv%vnmmmmmmmmnv%vnmmmmmmmmnv%vnmmmnv%vnmmmnv"
+echo -e "    vnmmnv%vnmmmmmnv%vnmmmmmmmmnv%vnmmmmmmmmmmnv%vnmmmnv%vnmmmnv"
+echo -e "   vnmmnv%vnmmmmmnv%vnmm;mmmmmmnv%vnmmmmmmmm;mmnv%vnmmmnv%vnmmmnv,"
+echo -e "  vnmmnv%vnmmmmmnv%vnmm;\'mmmmmnv%vnmmmmmmm;\' mmnv%vnmmmnv%vnmmmnv"
+echo -e "  vnmmnv%vnmmmmmnv%vn;;    mmmmnv%vnmmmmmm;;    nv%vnmmmmnv%vnmmmnv"
+echo -e " vnmmnv%vnmmmmmmnv%v;;      mmmnv%vnmmmmm;;      v%vnmmmmmnv%vnmmmnv"
+echo -e " vnmmnv%vnmmmmmmnv%vnmmmmmmmmm;;       mmmmmmmmmnv%vnmmmmmmnv%vnmmmnv"
+echo -e " vnmmnv%vnmmmmmmnv%vnmmmmmmmmmm;;     mmmmmmmmmmnv%vnmmmmmmnv%vnmmmnv"
+echo -e " vnmmnv%vnmmmmm nv%vnmmmmmmmmmmnv;, mmmmmmmmmmmmnv%vn;mmmmmnv%vnmmmnv"
+echo -e " vnmmnv%vnmmmmm  nv%vnmmmmmmmmmnv%;nmmmmmmmmmmmnv%vn; mmmmmnv%vnmmmnv"
+echo -e "  vnmmnv%vnmmmm,  v%vnmmmmmmmmmmnv%vnmmmmmmmmmmnv%v;  mmmmnv%vnnmmnv"
+echo -e "  vnmmnv%vnmmmm;,   %vnmmmmmmmmmnv%vnmmmmmmmmmnv%;\'   mmmnv%vnmmmmnv"
+echo -e "   vnmmnv%vnmmmm;;,   nmmm;\'              mmmm;;\'    mmmnv%vnmmmmnv"
+echo -e "    vnmmnv%vnmmmmm;;,.         mmnv%v;,            mmmmnv%vnmmmmnv"
+echo -e "      vnmmnv%vnmmmmmmnv%vnmmmmmmmmnv%vnmmmmmmnv%vnmmmmmnv%vnmmmmnv"
+echo -e "        vnmvn%vnmmmmmmnv%vnmmmmmmmnv%vnmmmmmnv%vnmmmmmnv%vnmmmnv"
+echo -e "          vn%vnmmmmmmn%:%vnmnmmmmnv%vnmmmnv%:%vnmmnv%vnmnv${NC}"
 echo ""
 
 virtualBox=$(dpkg -l | grep -i virtualbox)
