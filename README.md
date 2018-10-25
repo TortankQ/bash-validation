@@ -1,7 +1,7 @@
 # bash-validation
 
 ## Script de validation
-Ce script a pour pu pédagogique il à était développer pour valider une semaine linux
+Ce script a pour but pédagogique il a était développé pour valider une semaine linux
 
 ## Mise en place
 Pour ce faire vous devrais cloner le repo puis ouvrir un terminal de commande et lancer la commande suivant  pour rendre le fichier run.sh éxecutable :
