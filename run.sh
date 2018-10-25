@@ -145,7 +145,7 @@ do
         then
           # synced_folder valide
           echo -e "${GREEN}Votre box ${RED}$box${NC}"
-          echo -e "${GREEN}Nom du dossier distant ${RED}$folder${NC}"
+          echo -e "${GREEN}Nom du dossier base ${RED}$folder${NC}"
           echo -e "${GREEN}Nom du dossier distant ${RED}$syncedFolder${NC}"
           echo -e "${GREEN}Validation (y/n)?${NC}"
           read valide
@@ -217,7 +217,8 @@ do
           # Menu de choix d'interaction
           echo -e "${BLUE}Que voulez vous faire :${NC}"
           echo -e "${GREEN}1 - Allumer${NC}"
-          echo -e "${RED}2 - Eteindre${NC}"
+          echo -e "${GREEN}2 - Eteindre${NC}"
+          echo -e "${RED}3 - Supprimer${NC}"
           read interact
 
           if [ "$interact" == "1" ]
@@ -231,6 +232,13 @@ do
           then
             # On eteint la vagrant
             vagrant halt $vagrantId
+            reloadInteract="0"
+          fi
+
+          if [ "$interact" == "3" ]
+          then
+            # On eteint la vagrant
+            vagrant destroy $vagrantId
             reloadInteract="0"
           fi
 
